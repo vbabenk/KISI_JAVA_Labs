@@ -1,0 +1,16 @@
+plugins {
+    id 'application'
+}
+
+sourceCompatibility = '1.8'
+
+compileJava {
+    options.encoding = 'utf-8'
+}
+
+classes.doLast {
+    copy {
+        from 'build/classes/java/main/lab4'
+        into 'lab4'
+    }
+}
