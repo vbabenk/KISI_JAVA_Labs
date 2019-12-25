@@ -1,0 +1,3 @@
+interface Abiturient {
+    void outputMessage();
+}
